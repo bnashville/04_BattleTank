@@ -19,5 +19,8 @@ public:
 	ATank* GetControlledTank() const;
 	
 	void BeginPlay() override;
-	
+	virtual void Tick(float DeltaTime) override;
+
+	// start tank moving barrel so that shot would hit where crosshair intersects world
+	void AimTowardsCrosshair();
 };
