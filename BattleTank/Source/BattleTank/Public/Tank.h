@@ -42,6 +42,6 @@ private:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, Category = Firing) 
-		float LaunchSpeed = 100000; // TODO - find sensible launch speed. 
+		float LaunchSpeed = 4000;
 
 };
